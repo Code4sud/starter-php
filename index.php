@@ -5,7 +5,7 @@ require 'src/db.php';
 
 // Create the table if it doesn't exist
 createTable();
-
+include 'header.php';
 $title = "Welcome to My PHP App!";
 $content = "<p>This is a basic PHP app running in a Docker container.</p>";
 
